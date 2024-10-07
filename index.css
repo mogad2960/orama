@@ -15,7 +15,7 @@ body{
 .navbar a.navbarAnchor{
     text-decoration: none;
     padding: 25px;
-    color: #ffffff;
+    color: rebeccapurple;
     font-family: Copperplate;
 }
 .navbar a.navbarAnchor:hover{
