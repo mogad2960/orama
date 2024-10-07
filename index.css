@@ -1,23 +1,26 @@
-
-.body{
+body{
     margin: 0px;
-    padding: 0px;
 }
-.navbar .navbarUL{
-    list-style: none;
+
+.navbarUL{
+    list-style-type: none;
     margin: 0px;
-    padding: 0px;
-    overflow: hidden;
+    padding-left: 0px;
     display: block;
+    overflow: hidden;
+    height: 30px;
+    padding-top: 10px;
     background-image: linear-gradient(to right,#284177,#EDE8E4);
 }
-.navbar .navbarList{
-    float: left;
-    padding-top: 0px;
-    margin-top: 0px;
+.navbar a.navbarAnchor{
+    text-decoration: none;
+    padding: 25px;
+    color: #ffffff;
+    font-family: Copperplate;
 }
-.navbar .navbarAnchor{
-    padding: 40px;
-    margin: 0px;
-    height: 40px;
+.navbar a.navbarAnchor:hover{
+    background-color: #535353;
+}
+.navbarList{
+    float: left;
 }
