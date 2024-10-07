@@ -1,0 +1,23 @@
+
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar .navbarUL{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: block;
+    background-image: linear-gradient(to right,#284177,#EDE8E4);
+}
+.navbar .navbarList{
+    float: left;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.navbar .navbarAnchor{
+    padding: 40px;
+    margin: 0px;
+    height: 40px;
+}
