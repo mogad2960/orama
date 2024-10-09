@@ -21,6 +21,7 @@ body{
 }
 .navbar a.navbarAnchor:hover{
     background-color: #83CEEC;
+    cursor: pointer;
 }
 .navbarList{
     float: left;
