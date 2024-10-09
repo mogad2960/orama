@@ -26,3 +26,25 @@ body{
 .navbarList{
     float: left;
 }
+.header{
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+    background-image: url("headerPic2.png");
+    background-size: auto;
+}
+.headerTitle{
+    margin: 0px;
+    padding: 0px;
+}
+.headerTitleP{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left:5%;
+    width: 85%;
+    padding-top:200px;
+    font-size: 80px;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+}
