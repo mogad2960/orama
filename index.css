@@ -6,6 +6,7 @@ body{
     list-style-type: none;
     margin: 0px;
     padding-left: 0px;
+
     display: block;
     overflow: hidden;
     height: 30px;
@@ -14,12 +15,12 @@ body{
 }
 .navbar a.navbarAnchor{
     text-decoration: none;
-    padding: 25px;
-    color: rebeccapurple;
-    font-family: Copperplate;
+    padding: 40px;
+    color: white;
+    font-family: "Bona Nova SC", serif;
 }
 .navbar a.navbarAnchor:hover{
-    background-color: #535353;
+    background-color: #83CEEC;
 }
 .navbarList{
     float: left;
