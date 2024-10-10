@@ -11,16 +11,18 @@ body{
     overflow: hidden;
     height: 30px;
     padding-top: 10px;
-    background-image: linear-gradient(to right,#284177,#EDE8E4);
+    background-color: black;
 }
 .navbar a.navbarAnchor{
     text-decoration: none;
     padding: 40px;
     color: white;
+    font-weight: bold;
     font-family: "Bona Nova SC", serif;
 }
 .navbar a.navbarAnchor:hover{
-    background-color: #83CEEC;
+    color: black;
+    background-color: white;
     cursor: pointer;
 }
 .navbarList{
@@ -29,8 +31,8 @@ body{
 .header{
     margin: 0px;
     padding: 0px;
-    height: 500px;
-    background-image: url("headerPic2.png");
+    height: 550px;
+    background-image: url("headerPicGreek.png");
     background-size: auto;
 }
 .headerTitle{
@@ -48,8 +50,13 @@ body{
     font-family: "Bona Nova SC", serif;
     color: white;
 }
+.divServices{
+    background-color: black;
+}
 .divServicesH1{
     font-family: "Bona Nova SC", serif;
+    color: white;
+    font-weight: bold;
     font-size: 45px;
     margin-left: 5%;
     margin-top: 5%;
@@ -58,21 +65,18 @@ body{
     height: 200px;
     margin-left:5%;
     width: 90%;
-
 }
 .horizontalDivServices1{
     height: 180px;
-
 }
 .servicesFrontEnd{
-    border: 1px solid black;
+    border: 1px solid white;
     height: 170px;
     width: 45%;
     display: inline-block;
-
 }
 .servicesMaintenence{
-    border: 1px solid black;
+    border: 1px solid white;
     height: 170px;
     margin-left: 5%;
     width: 45%;
@@ -81,15 +85,18 @@ body{
 .servicesDL{
     margin-left: 5%;
     padding-bottom: 25px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
     width: 90%;
+
 }
 .servicesDT{
     font-family: "Bona Nova SC", serif;
+    color: white;
 }
 .servicesDD{
     width: 90%;
     font-family: "Bona Nova SC", serif;
+    color: white;
 }
 .buttonServices{
     width: 100px;
@@ -97,7 +104,8 @@ body{
     border-radius: 30px;
     border: none;
     margin-left: 5%;
-    background-image: linear-gradient(to right,#284177,#EDE8E4);
-    color: white;
+    background-color: white;
+    color: black;
+    
 }
 
