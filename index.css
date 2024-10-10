@@ -48,3 +48,34 @@ body{
     font-family: "Bona Nova SC", serif;
     color: white;
 }
+.divServicesH1{
+    font-family: "Bona Nova SC", serif;
+    font-size: 45px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.verticalDivServices{
+    height: 200px;
+    margin-left:5%;
+    width: 90%;
+
+}
+.horizontalDivServices1{
+    height: 180px;
+
+}
+.servicesFrontEnd{
+    border: 1px solid black;
+    height: 170px;
+    width: 40%;
+    display: inline-block;
+
+}
+.servicesMaintenence{
+    border: 1px solid black;
+    height: 170px;
+    margin-left: 10%;
+    width: 40%;
+    display: inline-block;
+}
+
