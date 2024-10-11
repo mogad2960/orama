@@ -140,3 +140,21 @@ button:hover{
     background-image: url("headerGreek2.png");
     background-size: auto;
 }
+.divServicePage{
+    background-color: black;
+    height: 900px;
+}
+.tierHorizontal{
+    width: 90%;
+    height: 800px;
+
+    margin-left: 5%;
+}
+.tier2{
+    border: 2px white solid;
+    height: 500px;
+    margin-left: 3%;
+    margin-top: 10%;
+    width: 20%;
+    display: inline-block;
+}
