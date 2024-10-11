@@ -6,7 +6,6 @@ body{
     list-style-type: none;
     margin: 0px;
     padding-left: 0px;
-
     display: block;
     overflow: hidden;
     height: 30px;
@@ -50,16 +49,31 @@ body{
     font-family: "Bona Nova SC", serif;
     color: white;
 }
+.headerTitlePinP{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left:6%;
+    width: 75%;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+}
 .divServices{
     background-color: black;
+    height: 500px;
 }
 .divServicesH1{
+    margin:0px;
+    padding-top: 45px;
+    padding-bottom: 20px;
     font-family: "Bona Nova SC", serif;
     color: white;
     font-weight: bold;
     font-size: 45px;
     margin-left: 5%;
-    margin-top: 5%;
+
 }
 .verticalDivServices{
     height: 200px;
@@ -106,6 +120,23 @@ body{
     margin-left: 5%;
     background-color: white;
     color: black;
-    
+    cursor: pointer;
 }
-
+.buttonServices:hover{
+    transform: scale(1.1);
+    transition: 150ms;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 150ms;
+}
+.headerServices{
+    margin: 0px;
+    padding: 0px;
+    height: 550px;
+    background-image: url("headerGreek2.png");
+    background-size: auto;
+}
