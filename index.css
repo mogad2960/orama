@@ -183,5 +183,11 @@ button:hover{
     width: 100px;
     height: 40px;
     border-radius: 30px;
-    margin-left: 30%;
+
+}
+.tierButtonAnchor{
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    margin-left: 70px;
 }
