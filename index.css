@@ -146,14 +146,14 @@ button:hover{
 }
 .tierHorizontal{
     width: 90%;
-    height: 800px;
+    height: 900px;
     display: flex;
     justify-content: space-evenly;
     margin-left: 5%;
 }
 .tier2{
     border: 2px white solid;
-    height: 600px;
+    height: 80%;
     margin-left: 3%;
     margin-top: 10%;
     width: 20%;
@@ -190,4 +190,54 @@ button:hover{
     position: absolute;
     bottom: 0;
     margin-left: 70px;
+}
+.contactDiv{
+    height: 1000px;
+    background-color: black;
+}
+label{
+    color: white;
+    display: block;
+}
+.names{
+
+    width: 30%;
+    display: inline-block;
+    margin-left: 20%;
+}
+#fname{
+    height: 50px;
+    width: 90%;
+}
+#lname{
+    height: 50px;
+    width: 90%;
+}
+#email{
+    height: 50px;
+    width: 90%;
+}
+#tele{
+    height: 50px;
+    width: 90%;
+}
+.data{
+    width: 30%;
+    display: inline-block;
+ }
+.quest{
+    width: 60%;
+    margin-left: 20%;
+}
+#questions{
+    height: 50px;
+    width: 95.5%;
+}
+.suggest{
+    width: 60%;
+    margin-left: 20%;
+}
+#suggestion{
+    height: 50px;
+    width: 95.5%;
 }
