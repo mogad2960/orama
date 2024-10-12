@@ -147,14 +147,40 @@ button:hover{
 .tierHorizontal{
     width: 90%;
     height: 800px;
-
+    display: flex;
+    justify-content: space-evenly;
     margin-left: 5%;
 }
 .tier2{
     border: 2px white solid;
-    height: 500px;
+    height: 600px;
     margin-left: 3%;
     margin-top: 10%;
     width: 20%;
-    display: inline-block;
+
+}
+.tier21{
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+.tier21UL{
+    list-style-type: none;
+
+}
+.tier21LI{
+    color: white;
+    width: 90%;
+    padding-top: 35px;
+    border-bottom: 1px white solid;
+    font-family: "Bona Nova SC", serif;
+}
+.tierButton{
+    border: white;
+    background-color: white;
+    color: black;
+    font-family: "Bona Nova SC", serif;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
