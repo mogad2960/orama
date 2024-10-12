@@ -241,3 +241,18 @@ label{
     height: 50px;
     width: 95.5%;
 }
+.submitButton{
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-family: "Bona Nova SC", serif;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.submitButton:hover{
+    transform: scale(1.1);
+    transition: 150ms;
+}
