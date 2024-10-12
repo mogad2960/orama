@@ -180,7 +180,8 @@ button:hover{
     background-color: white;
     color: black;
     font-family: "Bona Nova SC", serif;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 30%;
 }
