@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: black;
 }
 
 .navbarUL{
@@ -183,13 +184,14 @@ button:hover{
     width: 100px;
     height: 40px;
     border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 5%;
 
 }
 .tierButtonAnchor{
     text-decoration: none;
-    position: absolute;
-    bottom: 0;
-    margin-left: 70px;
+
 }
 .contactDiv{
     height: 1000px;
@@ -255,4 +257,182 @@ label{
 .submitButton:hover{
     transform: scale(1.1);
     transition: 150ms;
+}
+#footer{
+    height: 150px;
+    background-color: #6b6b6b;
+
+}
+footer p.conntactUs{
+    margin: 0px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 45px;
+    font-family: Copperplate;
+}
+footer img.insta{
+    height: 25px;
+    width: 25px;
+    padding-top: 5px;
+    padding-left: 650px;
+}
+footer img.face{
+    height: 25px;
+    width: 25px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+footer img.twt{
+    height: 25px;
+    width: 25px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.Container {
+    display: flex;
+    justify-content: space-between; /* Ensures the divs are side by side */
+    width: 98vw;
+    float: left;
+
+}
+
+.ServicesTableTitles {
+    width: 40vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    padding: 10px;
+    border-left: 0;
+
+
+}
+.ServicesTableTitles h3{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+
+}
+.ServicesTableTitles h4{
+    margin-left: 100px;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+    text-decoration: overline;
+
+}
+
+.ServicesTableDescription{
+    width: 60vw;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    border-color: white;
+    border-right: 0;
+
+
+}
+
+.ServicesTableDescription h4{
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 0;
+    padding-right: 0;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+    text-align: justify-all;
+
+}
+.ServicesTitle h1{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+
+}
+.FeedbackTitle h1 {
+    padding-top: 50px;
+    margin-bottom: 50px; /* Use !important to force it if it's being overridden */
+    margin-left: 100px;
+    font-weight: bold;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+}
+h2{
+    margin-top: auto;
+    margin-left: 100px;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 30px;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+}
+.FeedbackDesc{
+    width: 100vw;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 100px;
+    border-color: white;
+    border-right: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+.FeedbackDesc h3{
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 0;
+    padding-right: 0;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+    text-align: justify-all;
+}
+.FeedbackDesc h4{
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 0;
+    padding-right: 0;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+    text-align: justify-all;
+}
+#Mike{
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+    text-align: justify-all;
+}
+#Sarah{
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-right: 0;
+    padding-right: 0;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    color: white;
+    text-align: justify-all;
+
+}
+
+.NewHr{
+    border-style: solid;
+    border-width: 100px;
+    margin-bottom: 50px;
+    border-color: black;
 }
